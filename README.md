@@ -1,47 +1,18 @@
-# CodeAlpha - Random Quote Generator
+# Random Quote Generator
 
-## 📌 Project Overview
-This project is developed as part of the **CodeAlpha Internship (Task 2)**.
+Simple web project with HTML, CSS, and JavaScript.
 
-It is a simple web application that displays random quotes. Each time the user opens the app or clicks the "New Quote" button, a new quote is shown.
+## Files
+- `index.html`
+- `style.css`
+- `script.js`
 
----
+## Run locally
+1. Open `index.html` in a browser, or
+2. Start a local server from `D:\RandomQuoteGenerator`:
+   ```powershell
+   python -m http.server 8000
+   ```
+3. Open `http://localhost:8000`
 
-## 🚀 Features
-- Random quote on page load
-- "New Quote" button
-- Displays quote text and author
-- Clean and minimal UI
-
----
-
-## 🛠️ Technologies Used
-- HTML
-- CSS
-- JavaScript
-
----
-
-## 📂 Project Structure
-- index.html
-- style.css
-- script.js
-
----
-
-## 🎯 Internship
-**CodeAlpha Internship**  
-**Task 2: Random Quote Generator**
-
----
-
-## 💡 How It Works
-Quotes are stored in a JavaScript array.  
-A random function selects and displays a quote on:
-- Page load  
-- Button click  
-
----
-
-## ⭐ Acknowledgment
-Thanks to CodeAlpha for this opportunity.
+Enjoy the random quotes and dark mode toggle!
